@@ -9,7 +9,7 @@ st.title('🔍 Analyze Your Data')
 st.write("📂 Upload A **CSV** or An **EXCEL** Files to Explore Your Data Interactively")
 
 # for uploading file
-uploaded_file = st.file_uploader("Upload A CSV or An Excel File",type=["csv",'xslx','xlsm','xlsb'])
+uploaded_file = st.file_uploader("Upload A CSV or An Excel File",type=["csv",'xlsx','xlsm','xlsb'])
 
 if uploaded_file is not None :
     try:
